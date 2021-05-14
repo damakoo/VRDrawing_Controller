@@ -21,7 +21,7 @@ Unity
 # Installation & Usage
 
 ```bash
-git clone https://github.com/damakoo/CatchingAssist.git
+git clone https://github.com/damakoo/VRDrawing_Controller.git
 ```
 
 Unity Hubでcloneしたプロジェクトを指定する
@@ -32,9 +32,9 @@ Oculus Questを接続し，File > Build And Run で実行
 
 椅子に座ってやることを想定した位置にボタンがある．
 必要に応じて右コントローラのReservedボタンを長押ししてキャリブレーションを行う．
-つまみ動作を行う代わりにAxis1D.SecondaryIndexTrigger(右手人差し指のボタン)を引くことで書く/消すことができます.
+Axis1D.SecondaryIndexTrigger(右手人差し指のボタン)を引くことで書く/消すことができる．
 コントローラーでVR空間のボタンに触れることでモードなどが変わる．
-その時にコントローラのボタンを押す必要はない．
+ボタンを押す時にコントローラのボタンを押す必要はない．
 
 各ボタン説明
 
