@@ -26,10 +26,32 @@ git clone https://github.com/damakoo/CatchingAssist.git
 
 Unity Hubでcloneしたプロジェクトを指定する
 
-Project > Assets > Scenes > CatchingAssist.unity　を開く
+Project > Assets > Scenes > VRDrawing_Controller.unity　を開く
 
 Oculus Questを接続し，File > Build And Run で実行
 
+椅子に座ってやることを想定した位置にボタンがある．
+必要に応じて右コントローラのReservedボタンを長押ししてキャリブレーションを行う．
+つまみ動作を行う代わりにAxis1D.SecondaryIndexTrigger(右手人差し指のボタン)を引くことで書く/消すことができます.
+コントローラーでVR空間のボタンに触れることでモードなどが変わる．
+その時にコントローラのボタンを押す必要はない．
+
+各ボタン説明
+
+太さ：描く線の太さを変えることができる．
+
+色：描く線の色を変えることができる．
+ピンク、赤、青、黒、黄、白、緑がある．
+
+モード：モードに応じてつまみ動作を行ったときに何ができるかが異なる．
+
+なし：何も起こらない
+
+書く：線を描くことができる
+
+消す：線を消すことができる
+
+全消去：描かれた線をすべて消すことができる．
 
 
 # Author
