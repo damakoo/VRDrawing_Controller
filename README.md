@@ -4,7 +4,7 @@ VR空間で空間または平面に絵を描くことができるアプリ
 
 # DEMO
 
-https://drive.google.com/file/d/1LAkQVf-wSpHAYD1dMbPN452YgHhtyYBi/view?usp=sharing
+https://www.youtube.com/watch?v=8aAANeltxjs
 
 （動画はハンドトラッキングver）
 
